@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
+
 @media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* CONFIGURAÇÃO TABLET */
     body {
         background-image: linear-gradient(to top, #F50400, #ff4d00);
     }
     section#login {
         width: 85vw;
+        height: 280px;
     }
     section#login > div#imagem {
         float: right;
@@ -15,13 +18,24 @@
         float: left;
         width: 65%;
     }
+    h1 {
+        font-size: 2em;
+    }
+    
+    p {
+        font-size: 1.1em;
+    }
 }
+
+
 @media screen and (min-width: 1025px) {
+    /*CONFIGURÇÃO DESKTOP*/
     body {
         background-image: linear-gradient(to top, #F50400, #ff4d00);
     }
     section#login {
-        width: 990px;
+        width: 1000px;
+        height: 350px;
     }
     section#login > div#imagem {
         float: left;
@@ -32,10 +46,10 @@
         width: 50%;
     }
     h1 {
-        font-size: 2em;
+        font-size: 2.2em;
     }
     
     p {
-        font-size: 1.1em;
+        font-size: 1.5em;
     }
 }
